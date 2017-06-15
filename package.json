@@ -1,0 +1,48 @@
+{
+    "name": "lb-whatsforlunch",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node fuse",
+        "dist": "node fuse dist",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.16.2",
+        "classnames": "^2.2.5",
+        "firebase-nest": "^0.5.1",
+        "lazy-route": "^1.0.7",
+        "mobx": "^3.1.15",
+        "mobx-firebase-store": "^1.0.3",
+        "mobx-react": "^4.2.1",
+        "mobx-react-devtools": "^4.2.5",
+        "mobx-react-router": "^4.0.1",
+        "moment": "^2.18.1",
+        "react": "^15.6.1",
+        "react-dom": "^15.6.1",
+        "react-router": "^4.1.1",
+        "react-router-dom": "^4.1.1",
+        "react-timeago": "^3.2.0",
+        "reflect-metadata": "^0.1.10",
+        "reset-css": "^2.0.2011012603"
+    },
+    "devDependencies": {
+        "@types/axios": "^0.14.0",
+        "@types/classnames": "^2.2.0",
+        "@types/node": "^7.0.5",
+        "@types/react": "^15.0.12",
+        "@types/react-dom": "^15.5.0",
+        "@types/react-router": "^4.0.11",
+        "@types/react-router-dom": "^4.0.4",
+        "babel-core": "^6.25.0",
+        "babel-plugin-transform-react-jsx": "^6.24.1",
+        "babel-preset-latest": "^6.24.1",
+        "fuse-box": "^2.1.0",
+        "node-sass": "^4.5.3",
+        "typescript": "^2.3.4",
+        "uglify-js": "^3.0.16"
+    }
+}

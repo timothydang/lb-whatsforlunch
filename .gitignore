@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+.history/
+*.lock
+.fusebox/
+dist/
+package-lock.json
